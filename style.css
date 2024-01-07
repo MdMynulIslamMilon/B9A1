@@ -53,16 +53,27 @@ start */
     background-image: url("resources/Banner\ Image.png");
     background-repeat: no-repeat;
     background-position: center;
-    height: 650px;
+    background-size: cover;
+    height: 600px;
+    width: 1320px;
 }
 .banner-heading{
+    color: #FFF;
     text-align: center;
-    padding-top: 170px;
-    color: white;}
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 .banner-title{
-    color: white;
+    color: #FFF;
     text-align: center;
-    font-weight: 700;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px
 }
 .discount-section{
     text-align: center;
@@ -110,7 +121,23 @@ start */
     font-family: Inter;
     font-size: 18px;
 }
+.join-btn{
+    border: none;
+    border-radius: 4px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: ;
+    background-color: #ff0000;
+}
+.all-joing-here{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .joing-time{
+    padding-top: 100px;
     color:black;
     text-align: center;
     font-family: Inter;
@@ -118,15 +145,43 @@ start */
     font-style: normal;
     font-weight: 600;
     line-height: 56px; /* 175% */
-    text-transform: capitalize;
     height: 482px;
+    width: 1320px;
     background-color:antiquewhite;
 }
-.join-btn{
-    color: #FFF;
+
+
+.holiday-sale{
     text-align: center;
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 700;
-    background-color: #070211;
+    margin-bottom: 30px;
+}
+.holiday-discount{
+    width: 1600px;
+}
+.top-image{
+    display: flex;
+    align-items: center;justify-content: center;
+}
+.reward{
+    width: 256px;
+     height: 306px;
+}
+.half-discount{
+    width: 206px;
+    height: 206px;
+    margin: 100px 74px ;
+}
+.rectangle-bottom{
+    width:429px; 
+    height:433px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color:black;
+    width: 1600px;
+    height: 609px;
+}
+p{
+    color: white;
 }
