@@ -269,9 +269,10 @@ header{
 }
 
 /* 50% discount section css */
-.discount-sale-container{
+.discount-container{
     width: 1320px;
-    margin: 10px auto;
+    margin: 0px auto;
+    text-align: center;
 }
 .discount-heading{
     color:black;
@@ -299,26 +300,28 @@ header{
 
 .top-image{
    display: flex;
-   justify-content:end;
+   justify-content: center;
+   /* margin-right: 13px; */
 }
 .reward{
    width: 360px;
    height: 380px;
    margin-top:90px;
+   margin-right: 400px;
 }
 .fifty-discount{
     width: 350px;
     height: 350px;
-    margin-left: 750px;
-    margin-bottom: -400px;
-    z-index: 1;
-    position: absolute;
+    display: flex;
+     position: absolute;
+     z-index: 1;
+     margin-left:750px ;
     
 }
 .gril-image{
-   width: 429px;
+   width: 420px;
    height:433px;
-   margin-left: 350px;
+   margin-left: 140px;
    margin-top: 38px; 
 }
 .rectangle-bottom{
@@ -358,7 +361,7 @@ header{
     background: rgba(255, 0, 0, 0.05);
     height: 616px;
     width: 1320px;
-    margin: 120px auto;
+    margin:60px auto;
     text-align: center;
 }
 
