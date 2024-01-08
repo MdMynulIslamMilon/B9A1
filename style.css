@@ -198,20 +198,20 @@ header{
     border-radius: 3px; 
     padding:10px;
     border: none;
-    margin-top: 25px;
+    
 }
 .all-best-offer-container{
-    width: 1600px;
+    width: 1320px;
     height: 730px;
-    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: auto;
 }
 .all-best-offer{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .offer-text{
-    text-align: center;
+    text-align:left;
+    margin:255px 40px 0px 30px ;
 }
 .best-offer-heading{
     color: #F00;
@@ -220,7 +220,6 @@ header{
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
 }
 .best-offer-title{
     color: #070211;
@@ -229,7 +228,6 @@ header{
     font-style: normal;
     font-weight: 900;
     line-height: normal;
-    text-transform: capitalize;
 }
 .best-offer-paragraph{
     color: rgba(7, 2, 17, 0.60);
@@ -238,78 +236,209 @@ header{
     font-style: normal;
     font-weight: 400;
 }
-.offer-image{
-    margin-left: 300px;
-}
-.year-paragraph{
-    color:black;
-    font-size: 20px;
-    font-weight: 400px;
+.middle-picture{
+    margin:190px 160px 0px 0px;
 }
 .red-background{
-    width: 600px;
-    height: 600px;
-    margin-bottom:400px;
+    width: 500px;
+    height: 500px;
+    margin-top: -380px;
+}
+.offer-year{
+   font-family:inter ;
+   margin-top: 210px; 
+   margin-right: 20px;
+   text-align: left;
+}
+.year-heading{
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700px;
 }
 .year-paragraph{
-    width:268px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 400px;
+    margin:15px 30px 0px 0px;
 }
-.discount-sale{
-    
+.happy-image{
+    margin-top: 25px;
+    width: 170px;
+    height: 170px;
+}
+
+/* 50% discount section css */
+.discount-sale-container{
+    width: 1320px;
+    margin: 10px auto;
 }
 .discount-heading{
     color:black;
+    font-family: inter;
     font-size: 40px;
     font-weight: 500px;
 }
 .discount-sale-heading{
+    color: #F00;
+    font-family: inter;
     font-size: 70px;
     font-weight: 700px;
+    margin: 8px auto;
 }
 .discount-paragraph{
     font-size: 20px;
     font-weight: 500px;
     line-height: 20px;
+    margin-bottom:15px;
 }
-
-
 
 .holiday-sale{
-    
     text-align: center;
 }
-.holiday-discount{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: aqua;
-    width: 1600px;
-    height: 700px;
-}
+
 .top-image{
+   display: flex;
+   justify-content:end;
+}
+.reward{
+   width: 360px;
+   height: 380px;
+   margin-top:90px;
+}
+.fifty-discount{
+    width: 350px;
+    height: 350px;
+    margin-left: 750px;
+    margin-bottom: -400px;
+    z-index: 1;
+    position: absolute;
+    
+}
+.gril-image{
+   width: 429px;
+   height:433px;
+   margin-left: 350px;
+   margin-top: 38px; 
+}
+.rectangle-bottom{
+    text-align: center;
+}
+/* portfolio css design */
+.portfolio-container{
+    margin: auto;
+    width: 1300px;
+}
+.images-1{
+    display: grid;
+    grid-template-columns:repeat( 3, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+.portfolio-heading{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500px;
+    margin-top: 100px;
+}
+.portfolio-title{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900px;
+    margin: 8px 0px;
+}
+.portfolio-paragraph{
+    color: #070211;
+    font-size: 20px;
+    font-weight: 400px;
+}
+/* Subscriber section css  */
+.subscriber-container{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    height: 616px;
+    width: 1320px;
+    margin: 120px auto;
+    text-align: center;
+}
+
+.subscriber-heading{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    }
+.subscriber-paragraph{
+    color: rgba(7, 2, 17, 0.60);
+    width: 896px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height:30px; 
+    margin:7px auto;
+    }
+
+.img{
+    margin-top: 110px;
+}
+.form{
     display: flex;
-    align-items: center;
     justify-content: center;
 }
-/* .reward{
-    width: 256px;
-    height: 306px;
-}
-.half-discount{
-    width: 206px;
-    height: 206px;
-    margin: 100px 74px ;
-} */
-.rectangle-bottom{
+.email{
+    padding: 10px;
+    border: none;
+    border-radius: 15px 0px 0px 15px;
 
 }
-.footer{
-    display: flex;
-    justify-content: space-around;
-    background-color:black;
-    width: 1600px;
-    height: 609px;
-}
-/* p{
+.subscriber-btn{
     color: white;
-} */
+    background-color: #F00;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    
+}
+/* footer section css */
+.footer-container{
+    width: 1600px;
+    height: 609px; 
+    margin: 0px auto;
+    background-color:rgb(0, 0, 0);
+}
+.footer-all-class{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer-text{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top:165px;
+    margin-left: -250px;
+}
+.bottom-text{
+    margin-top: 150px;
+    margin-right: 40px;
+}
+.social-icon{
+    margin-top:230px;
+    margin-left:60px;
+}
+.phone-internet{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 160px;
+    margin-left:180px;
+}
+.unsubscribe{
+    margin-top:150px;
+}
