@@ -53,7 +53,7 @@ header{
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    
+    margin-bottom: 80px
 }
 .banner-header{;
     height: 600px;
@@ -133,7 +133,7 @@ header{
 .mid-night{
     color: white;
     text-align: left;
-    margin:-340px 0px 0px 80px;
+    margin:-360px 0px 0px 80px;
     
 }
 .new-img{
@@ -185,7 +185,7 @@ header{
     font-family: Inter;
     font-size: 22px;
     font-weight: 600;
-    margin-top: 150px;
+    margin-top: 180px;
     font-style: normal;
     font-weight: 600;
     line-height: 40px;
@@ -238,6 +238,8 @@ header{
 }
 .middle-picture{
     margin:190px 160px 0px 0px;
+    border:20px solid red;
+    border-radius: 50%;
 }
 .red-background{
     width: 500px;
